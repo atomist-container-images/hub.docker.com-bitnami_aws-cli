@@ -1,7 +1,5 @@
-# Tags: latest, 2.5.1-debian-10-r0, 2.5.1, 2-debian-10, 2
+# Tags: latest, 2-debian-10, 2
 FROM bitnami/aws-cli:latest
-FROM bitnami/aws-cli:2.5.1-debian-10-r0
-FROM bitnami/aws-cli:2.5.1
 FROM bitnami/aws-cli:2-debian-10
 FROM bitnami/aws-cli:2
 
@@ -13,6 +11,10 @@ FROM bitnami/aws-cli:1
 
 # Tags: _
 FROM bitnami/aws-cli:_
+
+# Tags: 2.5.1-debian-10-r0, 2.5.1
+FROM bitnami/aws-cli:2.5.1-debian-10-r0
+FROM bitnami/aws-cli:2.5.1
 
 # Tags: 2.5.0-debian-10-r1, 2.5.0
 FROM bitnami/aws-cli:2.5.0-debian-10-r1
@@ -238,7 +240,3 @@ FROM bitnami/aws-cli:1.22.65
 # Tags: 2.4.21-debian-10-r4, 2.4.21
 FROM bitnami/aws-cli:2.4.21-debian-10-r4
 FROM bitnami/aws-cli:2.4.21
-
-# Tags: 1.22.64-debian-10-r0, 1.22.64
-FROM bitnami/aws-cli:1.22.64-debian-10-r0
-FROM bitnami/aws-cli:1.22.64
